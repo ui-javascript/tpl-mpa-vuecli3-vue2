@@ -45,6 +45,7 @@ module.exports = {
   // 设为false打包时不生成.map文件
   productionSourceMap: false,
   devServer: {
+    disableHostCheck: true,
     port: CONFIG.port,
     // open: true,
     overlay: {
