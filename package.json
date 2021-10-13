@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "yarn install && yarn run dev",
     "install:tyarn": "tyarn install",
     "remove": "rimraf node_modules",
     "serve": "vue-cli-service serve",
