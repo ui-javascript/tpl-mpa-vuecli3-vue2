@@ -39,7 +39,7 @@ module.exports = {
   // 1) / 绝对路径
   // 2) ./ 相对路径
   publicPath: './',
-  outputDir: 'dist',
+  outputDir: 'docs',
   assetsDir: 'static',
   lintOnSave: isEnvDev,
   // 设为false打包时不生成.map文件
